@@ -1,5 +1,5 @@
 {% set name = "pynmeagps" %}
-{% set version = "1.0.29" %}
+{% set version = "1.0.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynmeagps-{{ version }}.tar.gz
-  sha256: 605f8bd80232c330042160a64e7e378da080c83b1be0d6f16667831e82295f98
+  sha256: e51bfdd1ce94361fe6779c70260e041b6bd84c99f70cf29973faf1d41201ec33
 
 build:
   noarch: python

@@ -37,6 +37,7 @@ about:
   description: Python library for parsing and generating NMEA 0183 GNSS protocol messages.
   summary: NMEA protocol parser and generator
   license: BSD-3-Clause
+  license_file: LICENSE
   doc_url: https://www.semuconsulting.com/pynmeagps/
   dev_url: https://github.com/semuconsulting/pynmeagps
 

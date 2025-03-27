@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools >=76.0.0
+    - setuptools >=75.0.0
     - wheel
     - pip
   run:

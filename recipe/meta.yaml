@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pynmeagps-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pynmeagps-{{ version }}.tar.gz
   sha256: d1a6b61d73497d9b6de4dda972011006c939a68f10173724124ed32864273ca2
 build:
   noarch: python
